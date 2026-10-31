@@ -137,6 +137,9 @@ header.top .btn{padding:.7em 1.2em;font-size:.78rem}
 @media (max-width:820px){.mari .wrap{grid-template-columns:1fr}.mari .arch-wrap{max-width:260px}}
 
 .arch-wrap::after{display:none}
+.facts li.hot{background:var(--fg);color:#FFFFFF;border-color:var(--fg);font-size:1rem;font-weight:700;letter-spacing:.03em;padding:.6em 1.3em}
+.facts li.hot::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);margin-right:.6em;vertical-align:middle}
+.own{margin-top:22px;font-size:1.2rem;font-weight:600;max-width:34ch}
 .arch{height:auto}
 
 .place{margin-top:28px;padding-top:22px;border-top:1px solid var(--line);display:grid;gap:4px}
@@ -202,8 +205,7 @@ footer p{max-width:62ch}
         <ul class="facts" aria-label="Informações do evento">
           <li>28 de novembro</li>
           <li>Das 9h às 19h</li>
-          <li>Curitiba · PR</li>
-          <li>100% vivência</li>
+          <li class="hot">Apenas 20 vagas</li>
         </ul>
         <div class="cta-row">
           <a class="btn" href="#investimento">Quero participar</a>
@@ -346,6 +348,7 @@ footer p{max-width:62ch}
         <h2>Mari Vida</h2>
         <p class="quote">A Constelação Familiar não oferece soluções rápidas. Ela revela o que estava oculto e devolve a cada um o seu lugar.</p>
         <p class="muted" style="margin-top:18px;max-width:46ch">É presença, é verdade, é transformação profunda.</p>
+        <p class="own">A imersão abre o caminho. O passo é seu.</p>
         
       </div>
     </div>
@@ -356,7 +359,7 @@ footer p{max-width:62ch}
       <div>
         <p class="eyebrow">Investimento</p>
         <h2>Valor especial para a primeira turma</h2>
-        <p class="muted">Condição especial para quem entra na primeira turma da imersão Encontre Seu Lugar, com desconto no Pix.</p>
+        <p class="muted">Condição especial para quem entra na primeira turma da imersão Encontre Seu Lugar, com desconto no Pix. São apenas 20 vagas.</p>
         <a class="link" href="https://wa.me/5541984982498?text=Ol%C3%A1%2C%20Mari%21%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20imers%C3%A3o%20Encontre%20Seu%20Lugar%2C%20no%20dia%2028%20de%20novembro." target="_blank" rel="noopener">Dúvidas? Fale pelo WhatsApp</a>
       </div>
       <div class="price-card band">
